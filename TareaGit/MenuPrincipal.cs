@@ -4,7 +4,7 @@ using System.Text;
 
 namespace TareaGit
 {
-    public class MenuPrincipal
+    public class MenuPrincipal : Imenu
     {
 
       public void imprimirmenu()
