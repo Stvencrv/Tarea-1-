@@ -4,9 +4,9 @@ using System.Text;
 
 namespace TareaGit
 {
-    class Repositorio
-    {
-        public class repositorio
+   
+    
+        public class Repositorio
         {
 
             public static repositorio Instancia { get; } = new repositorio();
@@ -20,4 +20,4 @@ namespace TareaGit
             }
         }
     }
-}
+
