@@ -4,30 +4,30 @@ using System.Text;
 
 namespace TareaGit
 {
-    class MenuCategoria
+    class MenuProducto : Imenu
     {
-        private MantCat mantenimiento { get; set; }
+        private MantProduc mantenimiento { get; set; }
 
-
-        public MenuCategoria()
+        public MenuProducto()
         {
-            mantenimiento = new MantCat();
+            mantenimiento = new MantProduc();
         }
 
         public void imprimirmenu()
         {
-            Imenu menu;
+            iMenu menu;
             Console.Clear();
-            Console.WriteLine("---Menu Categoria--- \n1.Agregar categorias \n2.Editar Categoria \n3.Eliminar Categoria \n4.Listar categorias \n5.Volver atrás");
-            int menus = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("---Menu Producto--- \n1.Agregar Producto \n2.Editar Producto \n3.Eliminar Producto \n4.Listar Producto \n5.Volver atrás");
+            int menu2 = Convert.ToInt32(Console.ReadLine());
 
-            switch (menus)
+            switch (menu2)
             {
+
                 case 1:
                     
                     break;
                 case 2:
-                    
+                  
                     break;
                 case 3:
                     
@@ -36,7 +36,7 @@ namespace TareaGit
                     
                     break;
                 case 5:
-                    
+                 
                     break;
                 default:
                     break;
