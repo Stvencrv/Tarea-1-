@@ -14,7 +14,7 @@ namespace TareaGit
 
             categoria nuevacategoria = new categoria(nombrecategoria);
 
-            repositorio.Instancia.Listadecategorias.Add(nuevacategoria);
+            Repositorio.Instancia.Listadecategorias.Add(nuevacategoria);
 
             Console.WriteLine("Se ha agregado la categoria");
             Console.ReadKey();
@@ -33,7 +33,7 @@ namespace TareaGit
             Console.WriteLine("Ingresar la nueva categoria: ");
             string nuevacategoria = Console.ReadLine();
 
-            repositorio.Instancia.Litasdecategorias[editcatego - 1].Nombre = nuevacategoria;
+            Repositorio.Instancia.Litasdecategorias[editcatego - 1].Nombre = nuevacategoria;
 
             Console.WriteLine("La categoria ha logrado editarse....");
             Console.ReadKey();
@@ -52,7 +52,7 @@ namespace TareaGit
 
             if (opcion == "S" || opcion == "s")
             {
-                repositorio.Instancia.Litasdecategorias.RemoveAt(elimcategoria - 1);
+                Repositorio.Instancia.Litasdecategorias.RemoveAt(elimcategoria - 1);
 
                 Console.WriteLine("La categoria se ha eliminado correctamente....");
                 Console.ReadKey();
@@ -65,9 +65,9 @@ namespace TareaGit
 
         public void listarcategorias()
         {
-            for (int i = 0; i < repositorio.Instancia.Litasdecategorias.Count; i++)
+            for (int i = 0; i < Repositorio.Instancia.Litasdecategorias.Count; i++)
             {
-                categoria categoriainterada = repositorio.Instancia.Litasdecategorias[i];
+                categoria categoriainterada = Repositorio.Instancia.Litasdecategorias[i];
                 Console.WriteLine((i + 1 + " - " + categoriainterada.Nombre));
             }
 
