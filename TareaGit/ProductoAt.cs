@@ -6,9 +6,6 @@ namespace TareaGit
 {
     class ProductoAt
     {
-        public class producto
-        {
-
             public string Nombre { get; set; }
 
             public double Precio { get; set; }
@@ -22,4 +19,4 @@ namespace TareaGit
 
         }
     }
-     }
+  
