@@ -25,6 +25,8 @@ namespace TareaGit
                     break;
 
                 case 2:
+                    MenuProducto menuxlll = new MenuProducto();
+                    menuxlll.imprimirmenu();
                     break;
 
                 case 3:

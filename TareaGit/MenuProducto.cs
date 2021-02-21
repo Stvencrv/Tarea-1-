@@ -24,19 +24,24 @@ namespace TareaGit
             {
 
                 case 1:
-                    
+                    mantenimiento.agregarproducto();
+                    imprimirmenu();
                     break;
                 case 2:
-                  
+                    mantenimiento.editproducto();
+                    imprimirmenu();
                     break;
                 case 3:
-                    
+                    mantenimiento.eliminarproducto();
+                    imprimirmenu();
                     break;
                 case 4:
-                    
+                    mantenimiento.listproducto();
+                    imprimirmenu();
                     break;
                 case 5:
-                 
+                    menu = new MenuPrincipal();
+                    menu.imprimirmenu();
                     break;
                 default:
                     break;

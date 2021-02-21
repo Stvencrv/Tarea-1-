@@ -29,7 +29,7 @@ namespace TareaGit
         {
 
             int editproducto;
-            llistarproducto();
+            listproducto();
             Console.WriteLine("Selecione el producto a editar: ");
             editproducto = Convert.ToInt32(Console.ReadLine());
 
@@ -46,9 +46,9 @@ namespace TareaGit
             Console.ReadKey();
         }
 
-        public void deleproducto()
+        public void eliminarproducto()
         {
-            llistarproducto();
+           listproducto();
             Console.WriteLine("Selecione el nombre del producto que desea eliminar: ");
             int elimproducto = Convert.ToInt32(Console.ReadLine());
 
@@ -65,7 +65,7 @@ namespace TareaGit
             }
         }
 
-        public void llistarproducto()
+        public void listproducto()
         {
             for (int i = 0; i < Repositorio.Instancia.Listarproductos.Count; i++)
             {
