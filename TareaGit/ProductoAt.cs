@@ -10,7 +10,7 @@ namespace TareaGit
 
             public double Precio { get; set; }
 
-            public producto(string nombreproducto, double precio)
+            public ProductoAt(string nombreproducto, double precio)
             {
                 this.Nombre = nombreproducto;
                 this.Precio = precio;

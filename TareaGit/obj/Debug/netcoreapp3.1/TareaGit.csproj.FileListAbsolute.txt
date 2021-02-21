@@ -2,3 +2,12 @@ C:\Users\steven\source\repos\TareaGit\TareaGit\obj\Debug\netcoreapp3.1\TareaGit.
 C:\Users\steven\source\repos\TareaGit\TareaGit\obj\Debug\netcoreapp3.1\TareaGit.AssemblyInfoInputs.cache
 C:\Users\steven\source\repos\TareaGit\TareaGit\obj\Debug\netcoreapp3.1\TareaGit.AssemblyInfo.cs
 C:\Users\steven\source\repos\TareaGit\TareaGit\obj\Debug\netcoreapp3.1\TareaGit.csproj.CoreCompileInputs.cache
+C:\Users\steven\source\repos\TareaGit\TareaGit\bin\Debug\netcoreapp3.1\TareaGit.exe
+C:\Users\steven\source\repos\TareaGit\TareaGit\bin\Debug\netcoreapp3.1\TareaGit.deps.json
+C:\Users\steven\source\repos\TareaGit\TareaGit\bin\Debug\netcoreapp3.1\TareaGit.runtimeconfig.json
+C:\Users\steven\source\repos\TareaGit\TareaGit\bin\Debug\netcoreapp3.1\TareaGit.runtimeconfig.dev.json
+C:\Users\steven\source\repos\TareaGit\TareaGit\bin\Debug\netcoreapp3.1\TareaGit.dll
+C:\Users\steven\source\repos\TareaGit\TareaGit\bin\Debug\netcoreapp3.1\TareaGit.pdb
+C:\Users\steven\source\repos\TareaGit\TareaGit\obj\Debug\netcoreapp3.1\TareaGit.dll
+C:\Users\steven\source\repos\TareaGit\TareaGit\obj\Debug\netcoreapp3.1\TareaGit.pdb
+C:\Users\steven\source\repos\TareaGit\TareaGit\obj\Debug\netcoreapp3.1\TareaGit.genruntimeconfig.cache

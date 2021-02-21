@@ -6,7 +6,8 @@ namespace TareaGit
     {
         static void Main(string[] args)
         {
-            
+            Imenu Principal = new MenuPrincipal();
+            Principal.imprimirmenu();
         }
     }
 }

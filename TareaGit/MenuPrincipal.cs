@@ -4,7 +4,7 @@ using System.Text;
 
 namespace TareaGit
 {
-    public class MenuPrincipal : Imenu
+     class MenuPrincipal : Imenu
     {
 
       public void imprimirmenu()
@@ -14,12 +14,14 @@ namespace TareaGit
 
             Console.Clear();
             Console.WriteLine("\n---Menu Principal--- \n1.Mantenimiento de categorias \n2.Mantenimiento de productos \n3.Entrada de inventario \n4.Salida de inventario \n5.Salir ");
-            int menusw = Convert.ToInt32(Console.ReadLine());
+            int menuxl = Convert.ToInt32(Console.ReadLine());
 
-            switch(menusw)
+            switch(menuxl)
             {
 
                 case 1:
+                    MenuCategoria menuxll = new MenuCategoria();
+                    menuxll.imprimirmenu();
                     break;
 
                 case 2:

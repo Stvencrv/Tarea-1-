@@ -15,7 +15,7 @@ namespace TareaGit
 
         public void imprimirmenu()
         {
-            iMenu menu;
+            Imenu menu; 
             Console.Clear();
             Console.WriteLine("---Menu Producto--- \n1.Agregar Producto \n2.Editar Producto \n3.Eliminar Producto \n4.Listar Producto \n5.Volver atrás");
             int menu2 = Convert.ToInt32(Console.ReadLine());

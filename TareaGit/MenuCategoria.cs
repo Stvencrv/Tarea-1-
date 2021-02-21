@@ -24,21 +24,27 @@ namespace TareaGit
             switch (menus)
             {
                 case 1:
-                    
+                    mantenimiento.agregarcategoria();
+                    imprimirmenu();
                     break;
                 case 2:
-                    
+                    mantenimiento.editarcategoria();
+                    imprimirmenu();
                     break;
                 case 3:
-                    
+                    mantenimiento.eliminarcategoria();
+                    imprimirmenu();
                     break;
                 case 4:
-                    
+                    mantenimiento.listarcategorias();
+                    imprimirmenu();
                     break;
                 case 5:
-                    
+                    menu =new MenuPrincipal();
+                    menu.imprimirmenu();
                     break;
                 default:
+                    Console.WriteLine("Ingrese Una Opcion Valida");
                     break;
             }
         }

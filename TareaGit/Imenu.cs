@@ -4,12 +4,11 @@ using System.Text;
 
 namespace TareaGit
 {
-    class Imenu
+     
+ 
+        public interface Imenu
     {
-
-        public interface iMenu
-        {
             void imprimirmenu();
         }
     }
-}
+
