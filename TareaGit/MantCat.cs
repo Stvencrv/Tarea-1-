@@ -14,7 +14,7 @@ namespace TareaGit
 
             categoria nuevacategoria = new categoria(nombrecategoria);
 
-            Repositorio.Instancia.Listadecategorias.Add(nuevacategoria);
+            Repositorio.Instancia.Litasdecategorias.Add(nuevacategoria);
 
             Console.WriteLine("Se ha agregado la categoria");
             Console.ReadKey();
