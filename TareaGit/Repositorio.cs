@@ -11,7 +11,7 @@ namespace TareaGit
 
             public static repositorio Instancia { get; } = new repositorio();
             public List<categoria> Litasdecategorias { get; set; } = new List<categoria>();
-            public List<producto> Listarproductos { get; set; } = new List<producto>();
+            public List<ProductoAt> Listarproductos { get; set; } = new List<ProductoAt>();
 
             private repositorio()
             {
@@ -19,4 +19,5 @@ namespace TareaGit
 
             }
         }
+    }
 }

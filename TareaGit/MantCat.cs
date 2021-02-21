@@ -6,7 +6,7 @@ namespace TareaGit
 {
     class MantCat
     {
-    
+
         public void agregarcategoria()
         {
             Console.WriteLine("Escribe el nombre de la categoria");
@@ -59,12 +59,6 @@ namespace TareaGit
 
             }
 
-
-
-
-
-
-
         }
 
 
@@ -80,6 +74,6 @@ namespace TareaGit
 
 
 
-
         }
+    }
 }

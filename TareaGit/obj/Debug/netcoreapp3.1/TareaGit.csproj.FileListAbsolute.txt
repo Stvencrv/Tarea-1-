@@ -1,0 +1,4 @@
+C:\Users\steven\source\repos\TareaGit\TareaGit\obj\Debug\netcoreapp3.1\TareaGit.csprojAssemblyReference.cache
+C:\Users\steven\source\repos\TareaGit\TareaGit\obj\Debug\netcoreapp3.1\TareaGit.AssemblyInfoInputs.cache
+C:\Users\steven\source\repos\TareaGit\TareaGit\obj\Debug\netcoreapp3.1\TareaGit.AssemblyInfo.cs
+C:\Users\steven\source\repos\TareaGit\TareaGit\obj\Debug\netcoreapp3.1\TareaGit.csproj.CoreCompileInputs.cache
