@@ -7,6 +7,8 @@ namespace TareaGit
     class MantProduc
     {
 
+
+        MantCat mantcat2 = new MantCat();
         public void agregarproducto()
         {
 
@@ -14,15 +16,34 @@ namespace TareaGit
             string nombreproducto = Console.ReadLine();
 
             Console.WriteLine("introduce el precio del producto: ");
-            double precioproducto = Convert.ToInt32(Console.ReadLine());
+            Double precioproducto = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("introduce la cantidad ");
+            int cantproducto = Convert.ToInt32(Console.ReadLine());
 
 
-            ProductoAt nuevoproducto = new ProductoAt(nombreproducto, precioproducto);
 
-            Repositorio.Instancia.Listarproductos.Add(nuevoproducto);
+            if (Repositorio.Instancia.Litasdecategorias.Count != 0)
+            {
 
-            Console.WriteLine("La categoria se ha agregado correctamente");
-            Console.ReadKey();
+                mantcat2.listarcategorias();
+
+                Console.WriteLine("Selecciona la categoria a agregar el producto");
+                int an = Convert.ToInt32(Console.ReadLine());
+
+                string categoriproduct = Repositorio.Instancia.Litasdecategorias[an - 1].Nombre;
+
+                ProductoAt Nuevoproducto = new ProductoAt(nombreproducto, precioproducto, cantproducto, categoriproduct);
+                Repositorio.Instancia.Listarproductos.Add(Nuevoproducto);
+
+
+                Console.WriteLine("La categoria se ha agregado correctamente");
+                Console.ReadKey();
+            }
+
+
+
+
         }
 
         public void editproducto()

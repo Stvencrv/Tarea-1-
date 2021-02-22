@@ -37,6 +37,7 @@ namespace TareaGit
                     break;
                 case 4:
                     mantenimiento.listproducto();
+                    Console.ReadLine();
                     imprimirmenu();
                     break;
                 case 5:
