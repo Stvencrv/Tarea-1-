@@ -41,6 +41,12 @@ namespace TareaGit
                 Console.ReadKey();
             }
 
+            else
+            {
+                Console.WriteLine("La categoria se ha agregado correctamente");
+                Console.ReadKey();
+
+            }
 
 
 
@@ -60,8 +66,11 @@ namespace TareaGit
             Console.WriteLine("Introduce el nuevo precio: ");
             double nuevoprecio = Convert.ToInt32(Console.ReadLine());
 
+        
+
             Repositorio.Instancia.Listarproductos[editproducto - 1].Nombre = nuevoproducto;
             Repositorio.Instancia.Listarproductos[editproducto - 1].Precio = nuevoprecio;
+        
 
             Console.WriteLine("El producto ha logrado editarse correctamente....");
             Console.ReadKey();
