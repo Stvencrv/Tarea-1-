@@ -18,7 +18,20 @@ namespace TareaGit
 
         }
 
+        public void Entradainventario()
+        {
+            VerProductoNombre();
+            Console.WriteLine("Selecciona una opcion:");
+            int al = Convert.ToInt32(Console.ReadLine());
 
+            Console.WriteLine("ingrese una cantidad");
+            int cantidadproducto2 = Convert.ToInt32(Console.ReadLine());
+
+            int result = Repositorio.Instancia.Listarproductos[al - 1].cantidad + cantidadproducto2;
+            Repositorio.Instancia.Listarproductos[al - 1].cantidad = result;
+            Console.WriteLine("Se ha ingrasado la entrada del producto");
+            Console.ReadKey();
+        }
 
 
     }
